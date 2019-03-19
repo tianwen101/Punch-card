@@ -1,25 +1,24 @@
 package Final;
 
 public class Book {
-    private String id;
+    private Integer id;
     private String name;
     private Double price;
 
-    public Book(String id, String name, Double price) {
-        this.id= id;
+    public Book(Integer id, String name, Double price) {
+        this.id = id;
         this.name = name;
         this.price = price;
     }
+    public Book(){
 
-    public Book(int id, String name, int price) {
     }
 
-
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -42,7 +41,7 @@ public class Book {
     @Override
     public String toString() {
         return "Book{" +
-                "id='" + id + '\'' +
+                "id=" + id +
                 ", name='" + name + '\'' +
                 ", price=" + price +
                 '}';
