@@ -21,5 +21,6 @@ public class BookList {
         System.out.println(list);
         System.out.println(list.indexOf(new Book(2,"高数",44.5)));
         System.out.println(list.lastIndexOf(new Book(2,"高数",44.5)));
+
     }
 }
